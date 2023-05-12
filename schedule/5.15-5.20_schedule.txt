@@ -1,0 +1,5 @@
+Schedule:
+1.Try a complete demo on SSD mobilenet series(any of them is ok).
+2.Make a choice between changing the model input(there's a problem on input array dimension and it's implicitly found, which is probobly related to Transform.py) and build a open-image format fold based on provided datasets source.
+3.get the model trained by defult setting, use some visulization toolkit to desplay the result
+4.install the quartus.
