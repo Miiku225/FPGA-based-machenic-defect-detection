@@ -1,0 +1,4 @@
+PaddleListe 基于 intel FPGA的编译在docker上通过，但是PaddleLite编译生成的基于MobileNet模型的demo不能在make时候形成对编译出库的正确链接，提示版本不匹配。
+主要在 shared 库 以及 谷歌第三方flag库。
+
+因为demo下编译cc文件失败，替换yolo5系列进行的编译亦失败。

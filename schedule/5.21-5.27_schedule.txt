@@ -1,0 +1,4 @@
+Schedule:
+1.Get the vital IP modified(ddr3 and vga). the input image augment(rebuild size and so on).
+2.Deciding the best-fit AI model which would be put in the CycloneV.(The first yolov5Lite, next yolov5, finally MobileNet Series), and implement it with PaddleLite.
+3.Make the link between PLinput & AImodel & HDMIoutput, do the test(Important!)

@@ -1,0 +1,10 @@
+yolov5模型基于官方发布api以及项目赛事方提供VOC格式数据集进行编译。
+采用yolov5s的pretrained模型，目的是形成较小规模的网络模型进行FPGA的优先部署。
+
+训练步数在150epochs左右触发提前终止机能，batch_size=64,input=640x640
+
+采用官方export参数进行pytorch转onnx模型格式。
+
+采用Xpaddle对onnx带weights模型进行转换。
+
+采用PaddleLite对paddle格式模型进行剪枝以及fpga优化。
